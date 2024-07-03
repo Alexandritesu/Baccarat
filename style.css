@@ -2,31 +2,84 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-image: url(1.jpg);
 }
 
+#con-box{
+    padding: 10px;
+    border: 4px solid;
+    display: flex;  
+}
+
+#Bankercardresult, #Playercardresult{
+    margin-top: 50px;
+}
+
+#playercard, #bankercard{
+    border: 1px solid wheat;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#bankercard{
+    margin-left: 10px;
+}
 
 #hd{
 font-style: Helvetica;
 text-align: center;
 font-size: 3em;
-
+color: aliceblue;
 }
 
-
+.btns{
+    margin-top:30px;
+    display: flex;
+    grid-template-columns: repeat(n, 1fr);
+    gap: 20px;
+}
 
 .btns button{
+    font-family: verdana;
     align-items: center;
     border-radius: 15px;
     font-size: 1.5rem;
-    height: 200px;
+    height: 180px;
     justify-content: center;
-    
-    width: 120px;
-    
-     
+    cursor: pointer;
+    width: 120px;    
+    border: 1px solid ;
 }
+
+
+
+#player{
+    background-color: rgba(25, 61, 221, 0.753);
+}
+#tie{
+    background-color: rgba(25, 221, 67, 0.733);
+}
+#banker{
+    background-color: rgba(221, 25, 25, 0.774);
+}
+
+#player:hover{
+    background-color: rgba(13, 37, 141, 0.753);
+}
+#tie:hover{
+    background-color: rgba(11, 107, 32, 0.733);
+}
+#banker:hover{
+    background-color: rgba(92, 11, 11, 0.774);
+}
+
 
 #cardResult{
     text-align: center;
     margin-top: 20px;
+    font-size: 3.5rem;
 }
