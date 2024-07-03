@@ -1,0 +1,34 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(1.png);
+}
+
+
+#hd{
+font-style: Helvetica;
+text-align: center;
+font-size: 3em;
+
+}
+
+.btns button{
+    align-items: center;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    height: 200px;
+    justify-content: center;
+    margin-top: 500px;
+    width: 120px;
+    
+   
+
+    
+    
+}
+
+#cardResult{
+    text-align: center;
+    margin-top: 20px;
+}
