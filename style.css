@@ -14,7 +14,8 @@ body{
 }
 
 #Bankercardresult, #Playercardresult{
-    margin-top: 50px;
+    margin-top: 20px;
+    
 }
 
 .pcard img, .bcard img {
@@ -28,8 +29,9 @@ body{
     line-height: 130px;
     text-align: center;
     border-radius: 5px;
-    object-fit: cover; /* Ensures images fill the dimensions without stretching */
-    border: 1px solid #ccc; /* Optional: add border for better visual separation */
+    object-fit: cover; 
+    border: 1px solid #ccc; 
+    margin-bottom: 30px;
 }
 
   #playercard, #bankercard {
