@@ -2,7 +2,7 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-image: url(1.jpg);
+    background-image: url(background.jpg);
 }
 
 #con-box{
@@ -15,10 +15,25 @@ body{
     margin-top: 50px;
 }
 
-#playercard, #bankercard{
-    border: 1px solid wheat;
+.pcard label, .bcard label {
+    display: inline-block;
+    width: 130px;
+    height: 200px;
+    margin: 5px;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 90px;
     text-align: center;
-    height: 500px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+
+#playercard, #bankercard{
+    border: 3px solid wheat;
+    border-radius: 10px;
+    text-align: center;
+    height: 450px;
     width: 500px;
     padding-top: 10px;
     font-weight: bold;
@@ -66,7 +81,9 @@ color: aliceblue;
 #banker{
     background-color: rgba(221, 25, 25, 0.774);
 }
-
+#start{
+    background-color: rgb(214, 218, 23);
+}
 #player:hover{
     background-color: rgba(13, 37, 141, 0.753);
 }
@@ -75,6 +92,9 @@ color: aliceblue;
 }
 #banker:hover{
     background-color: rgba(92, 11, 11, 0.774);
+}
+#start:hover{
+    background-color: rgba(215, 218, 23, 0.808);
 }
 
 

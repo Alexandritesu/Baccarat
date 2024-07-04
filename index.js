@@ -1,3 +1,6 @@
+const btns = ["theplayer", "thetie", "thebanker", "thedeal"];
+
+
 
 const pcard = document.getElementById("pcard");
 const bcard = document.getElementById("bcard");

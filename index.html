@@ -6,55 +6,42 @@
     <title>Baccarat</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <H1 id="hd">PINOY BACCARAT</H1>
+    <h1>PINOY BACCARAT</h1>
 
     <div id="con-box">
-        <div id="playercard"> PLAYER
-        
-           
+        <div id="playercard">
+            <h2>PLAYER</h2>
             <div id="Playercardresult">Example only of card image result here</div>
+            <div class="pcard">
+                <label id="card1p"></label>
+                <label id="card2p"></label>
+                <label id="card3p"></label>
+            </div>
+            <div id="playertotalcard">Player Total:</div>
         </div>
-       
 
-
-
-        <div id="bankercard"> BANKER
-       
-            <div  id="Bankercardresult">Example only of card image result here</div>
+        <div id="bankercard">
+            <h2>BANKER</h2>
+            <div id="Bankercardresult">Example only of card image result here</div>
+            <div class="bcard">
+                <label id="card1b"></label>
+                <label id="card2b"></label>
+                <label id="card3b"></label>
+            </div>
+            <div id="bankertotalcard">Banker Total:</div>
         </div>
-        
-
     </div>
 
-    
-        
-       
-        <div id="Cankercardresult"></div>
-   
-
-    <div class="btns">  
-        <button id="player" onclick="playerBTN"> PLAYER</button>
-        <button id="tie" onclick="tieBTN">TIE</button>
-        <button id="banker" onclick="bankerBTN">BANKER</button>  
+    <div class="btns">
+        <button id="player" onclick="bet('theplayer')">PLAYER</button>
+        <button id="tie" onclick="bet('thetie')">TIE</button>
+        <button id="banker" onclick="bet('thebanker')">BANKER</button>
+        <button id="start" onclick="play('thedeal')">START DEAL</button>
     </div>
-
-    
 
     <div id="cardResult">RESULT</div>
 
-    <div class= pcard>
-        <label id="card1p"></label>
-        <label id="card2p"></label>
-        <label id="card3p"></label>
-    </div>
-    <div class= bcard>
-        <label id="card1b"></label>
-        <label id="card2b"></label>
-        <label id="card3b"></label>
-    </div>
     <script src="index.js"></script>
 </body>
 </html>
-
